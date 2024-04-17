@@ -1,0 +1,519 @@
+.curved-shape-and-glass-bubbles {
+  width: 397.7px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  display: none;
+  max-width: 100%;
+}
+.frame-child2 {
+  width: 858px;
+  height: 797px;
+  position: relative;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-mistyrose);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+  max-width: 100%;
+}
+.sign-in {
+  margin: 0;
+  width: 204px;
+  position: relative;
+  font-size: inherit;
+  line-height: 59px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.form-fields {
+  width: 488px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.email1 {
+  width: 164px;
+  height: 24px;
+  position: relative;
+  font-weight: 100;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ex-abcgmailcom,
+.frame-child3 {
+  position: relative;
+  max-width: 100%;
+}
+.frame-child3 {
+  height: 64px;
+  width: 520px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-yellow-100);
+  box-sizing: border-box;
+  display: none;
+}
+.ex-abcgmailcom {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 100;
+  font-family: var(--font-noto-serif-kannada);
+  font-size: var(--font-size-17xl);
+  background-color: transparent;
+  height: 47px;
+  flex: 1;
+  line-height: 47px;
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 250px;
+  padding: 0;
+  z-index: 1;
+}
+.email-input,
+.rectangle-parent1 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.rectangle-parent1 {
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-yellow-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-5xs) var(--padding-smi) 5px;
+  max-width: 100%;
+  z-index: 1;
+}
+.email-input {
+  flex-direction: column;
+  gap: var(--gap-mid);
+  font-size: var(--font-size-10xl);
+  color: var(--color-darkgray);
+}
+.email-input,
+.sign-in-form,
+.sign-in-form-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.sign-in-form {
+  width: 520px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 34px;
+}
+.sign-in-form-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.password-content,
+.password1 {
+  width: 164px;
+  height: 24px;
+  position: relative;
+  font-weight: 100;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.password-content {
+  margin: 0;
+  width: 186px;
+  height: 37px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 2;
+}
+.show-password-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.invisible-icon {
+  position: absolute;
+  top: 6px;
+  left: 471px;
+  width: 31px;
+  height: 53px;
+  object-fit: contain;
+  z-index: 2;
+}
+.show-password {
+  width: 100%;
+  height: 64px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.password-content-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 32px;
+  position: relative;
+  font-size: var(--font-size-27xl);
+}
+.password-entry,
+.password-field {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.password-entry {
+  width: 520px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.password-field {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 var(--padding-3xl) var(--padding-5xs);
+  font-size: var(--font-size-10xl);
+  color: var(--color-darkgray);
+}
+.divider,
+.password-field,
+.separator {
+  box-sizing: border-box;
+}
+.separator {
+  width: 1px;
+  height: 207px;
+  position: relative;
+  border-right: 1px solid var(--color-black);
+  z-index: 1;
+}
+.divider {
+  height: 246px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+}
+.frame-child4 {
+  height: 100px;
+  width: 266px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-yellow-100);
+  display: none;
+}
+.submit1 {
+  width: 168px;
+  position: relative;
+  font-size: var(--font-size-25xl);
+  font-weight: 600;
+  font-family: var(--font-noto-serif-kannada);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+.frame-button,
+.frame-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-button {
+  cursor: pointer;
+  border: 0;
+  padding: 28px 44px 0;
+  background-color: var(--color-yellow-100);
+  flex: 1;
+  border-radius: var(--br-6xl);
+  justify-content: flex-end;
+  z-index: 1;
+}
+.frame-button:hover {
+  background-color: var(--color-yellow-200);
+}
+.frame-wrapper {
+  width: 402px;
+  justify-content: flex-start;
+  padding: 0 68px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.or-login-with {
+  width: 220px;
+  position: relative;
+  font-weight: 100;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.social-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-27xl);
+}
+.facebook-icon {
+  height: 92px;
+  width: 92px;
+}
+.facebook-icon,
+.google-icon,
+.twitter-icon {
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.google-icon {
+  height: 95px;
+  width: 95px;
+  min-height: 95px;
+}
+.twitter-icon {
+  height: 92px;
+  width: 92px;
+}
+.facebook-parent,
+.social-login,
+.social-options {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.facebook-parent {
+  flex-direction: row;
+  gap: var(--gap-4xl);
+}
+.social-login,
+.social-options {
+  max-width: 100%;
+}
+.social-options {
+  flex: 1;
+  flex-direction: column;
+  gap: 3px;
+}
+.social-login {
+  width: 399px;
+  flex-direction: row;
+  padding: 0 37px;
+  box-sizing: border-box;
+}
+.dont-have-an {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.sign-up-area1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  min-width: 188px;
+}
+.sign-up1 {
+  width: 135px;
+  position: relative;
+  font-size: var(--font-size-7xl);
+  text-decoration: underline;
+  font-weight: 600;
+  color: var(--color-dodgerblue);
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+}
+.frame-parent,
+.sign-up-area-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sign-up-area-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 6px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.frame-parent {
+  width: 431px;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+}
+.footer-child {
+  width: 1px;
+  height: 207px;
+  position: relative;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.footer {
+  height: 249px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bottom-bar {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  font-size: 27px;
+}
+.frame-div,
+.macbook-pro-14-1 {
+  display: flex;
+  box-sizing: border-box;
+}
+.frame-div {
+  width: 858px;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-mistyrose);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) 72px var(--padding-15xl);
+  gap: 37px;
+  max-width: 100%;
+}
+.macbook-pro-14-1 {
+  width: 100%;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 102px var(--padding-xl) 83px var(--padding-15xl);
+  background-image: url(./public/macbook-pro-14--4@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-38xl);
+  color: var(--color-black);
+  font-family: var(--font-noto-serif-kannada);
+}
+@media screen and (max-width: 825px) {
+  .sign-in {
+    font-size: var(--font-size-27xl);
+    line-height: 47px;
+  }
+  .ex-abcgmailcom {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .password-content {
+    font-size: var(--font-size-18xl);
+  }
+  .submit1 {
+    font-size: var(--font-size-16xl);
+  }
+  .frame-div {
+    padding: var(--padding-xl) var(--padding-17xl) var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .sign-in-form {
+    gap: var(--gap-mid);
+  }
+  .bottom-bar,
+  .facebook-parent,
+  .sign-up-area-parent {
+    flex-wrap: wrap;
+  }
+  .bottom-bar {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sign-in {
+    font-size: var(--font-size-15xl);
+    line-height: 35px;
+  }
+  .email1 {
+    font-size: var(--font-size-4xl);
+  }
+  .ex-abcgmailcom {
+    font-size: var(--font-size-3xl);
+    line-height: 28px;
+  }
+  .password1 {
+    font-size: var(--font-size-4xl);
+  }
+  .password-content {
+    font-size: var(--font-size-9xl);
+  }
+  .submit1 {
+    font-size: var(--font-size-7xl);
+  }
+  .frame-button,
+  .frame-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .or-login-with {
+    font-size: var(--font-size-3xl);
+  }
+  .social-title {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .dont-have-an {
+    font-size: 19px;
+  }
+  .sign-up1 {
+    font-size: 21px;
+  }
+  .frame-div {
+    gap: 18px;
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
