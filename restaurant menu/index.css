@@ -1,0 +1,109 @@
+.image-1-icon,
+.the-purple-ocean {
+  position: absolute;
+  margin: 0 !important;
+}
+.image-1-icon {
+  width: 1024px;
+  height: 1024px;
+  top: calc(50% - 512px);
+  left: calc(50% - 512px);
+  object-fit: cover;
+}
+.the-purple-ocean {
+  width: 374px;
+  top: 61px;
+  right: 22px;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-child {
+  height: 42px;
+  width: 197px;
+  position: relative;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-violet);
+  display: none;
+}
+.log-in {
+  position: relative;
+  font-size: var(--font-size-7xl);
+  font-family: var(--font-aclonica);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 86px;
+  z-index: 1;
+}
+.frame-item,
+.rectangle-parent {
+  width: 197px;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-violet);
+}
+.rectangle-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) 51px var(--padding-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-group:hover,
+.rectangle-parent:hover {
+  background-color: var(--color-orchid);
+}
+.frame-item {
+  height: 42px;
+  position: relative;
+  display: none;
+}
+.sign-up {
+  position: relative;
+  font-size: var(--font-size-7xl);
+  font-family: var(--font-aclonica);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 114px;
+  z-index: 1;
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) 41px var(--padding-7xs) 42px;
+  background-color: var(--color-violet);
+  border-radius: var(--br-9xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.iphone-14-plus-1 {
+  width: 100%;
+  height: 926px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 681px var(--padding-xl) 134px 21px;
+  gap: var(--gap-8xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 34px;
+  color: #fed2ff;
+  font-family: var(--font-aclonica);
+}
